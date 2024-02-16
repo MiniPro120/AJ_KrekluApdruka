@@ -8,3 +8,13 @@ C:\Users\aj2565\Desktop\AJ_KrekluApdruka\KrekluApdruka\obj\Debug\KrekluApdruka.c
 C:\Users\aj2565\Desktop\AJ_KrekluApdruka\KrekluApdruka\obj\Debug\KrekluApdruka.csproj.CoreCompileInputs.cache
 C:\Users\aj2565\Desktop\AJ_KrekluApdruka\KrekluApdruka\obj\Debug\KrekluApdruka.exe
 C:\Users\aj2565\Desktop\AJ_KrekluApdruka\KrekluApdruka\obj\Debug\KrekluApdruka.pdb
+C:\Users\MiniP\Desktop\Projekti\New folder\AJ_KrekluApdruka\KrekluApdruka\bin\Debug\KrekluApdruka.exe.config
+C:\Users\MiniP\Desktop\Projekti\New folder\AJ_KrekluApdruka\KrekluApdruka\bin\Debug\KrekluApdruka.exe
+C:\Users\MiniP\Desktop\Projekti\New folder\AJ_KrekluApdruka\KrekluApdruka\bin\Debug\KrekluApdruka.pdb
+C:\Users\MiniP\Desktop\Projekti\New folder\AJ_KrekluApdruka\KrekluApdruka\obj\Debug\KrekluApdruka.csproj.AssemblyReference.cache
+C:\Users\MiniP\Desktop\Projekti\New folder\AJ_KrekluApdruka\KrekluApdruka\obj\Debug\KrekluApdruka.Form1.resources
+C:\Users\MiniP\Desktop\Projekti\New folder\AJ_KrekluApdruka\KrekluApdruka\obj\Debug\KrekluApdruka.Properties.Resources.resources
+C:\Users\MiniP\Desktop\Projekti\New folder\AJ_KrekluApdruka\KrekluApdruka\obj\Debug\KrekluApdruka.csproj.GenerateResource.cache
+C:\Users\MiniP\Desktop\Projekti\New folder\AJ_KrekluApdruka\KrekluApdruka\obj\Debug\KrekluApdruka.csproj.CoreCompileInputs.cache
+C:\Users\MiniP\Desktop\Projekti\New folder\AJ_KrekluApdruka\KrekluApdruka\obj\Debug\KrekluApdruka.exe
+C:\Users\MiniP\Desktop\Projekti\New folder\AJ_KrekluApdruka\KrekluApdruka\obj\Debug\KrekluApdruka.pdb

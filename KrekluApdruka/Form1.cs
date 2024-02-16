@@ -15,8 +15,8 @@ namespace KrekluApdruka
         public Form1()
         {
             InitializeComponent();
-            
-            
+
+
         }
 
         private void Teksts_CheckedChanged(object sender, EventArgs e)
@@ -44,17 +44,17 @@ namespace KrekluApdruka
 
         }
 
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+
+
+
+
+
+
+
+
+
+
+
         
         
         private void Form1_Load(object sender, EventArgs e)
@@ -64,42 +64,68 @@ namespace KrekluApdruka
 
         private void button1_Click(object sender, EventArgs e)
         {
-            double  summas = 0;
+            string veids = "";
 
             if (Teksts.Checked)
             {
-                summas = summas + 5;
+                veids = "Teksts";
             }
             else if (Zime.Checked)
             {
-                summas = summas + 7;
+                veids = "Zime";
             }
             else if (Bilde.Checked)
+            {
+                veids = "Bilde";
+            }
+            int daudzums = Convert.ToInt32(Math.Round(skaits.Value, 0));
+
+            tkreklupasutisana(daudzums, veids, piegade.Checked);
+        }
+        private void tkreklupasutisana(int skaits, string veids, bool piegade)
+        {
+            double summas = 0;
+            double atlaide_summa = 0;
+
+            if (veids == "Teksts")
+            {
+                summas = summas + 5;
+            }
+            else if (veids == "Zime")
+            {
+                summas = summas + 7;
+            }
+            else if (veids == "Bilde")
             {
                 summas = summas + 20;
             }
 
-            int daudzums = Convert.ToInt32(Math.Round(skaits.Value, 0));
-            summas = summas * daudzums;
-            if (piegade.Checked)
+            
+            summas = summas * skaits;
+            if (piegade)
             {
-                if(summas < 50)
+                if (summas < 50)
                 {
                     summas = summas + 15;
                 }
-                else if(summas > 50)
-                {
-                    summas = summas;
-                }
-                
+
+
             }
             if (summas > 100)
             {
-                summas = summas  - (summas * 0.05);
+
+               atlaide_summa = summas - (summas * 0.05);
 
             }
+            else
+            {
+                atlaide_summa = summas;
+            }
 
-            summa.Text = $"{summas.ToString("0.00")}";
+            summa.Text = $"{atlaide_summa.ToString("0.00")}";
+
+            summa2.Text = $"{summas.ToString("0.00")}";
         }
+
     }
 }
